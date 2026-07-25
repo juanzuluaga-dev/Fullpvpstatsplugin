@@ -1,0 +1,15 @@
+# === Configuración de SuperTerraMC StatsPlugin ===
+
+firebase:
+  # La apiKey la sacas de firebase-config.js de la web (campo "apiKey")
+  api-key: "TU_API_KEY"
+  # El projectId también está en firebase-config.js (campo "projectId")
+  project-id: "TU_PROYECTO"
+  # La cuenta "servidor" que creaste en Firebase Authentication
+  email: "servidor@superterramc.local"
+  password: "CAMBIA_ESTO"
+  # Colección de Firestore donde se guardan las stats (Full PvP)
+  coleccion: "estadisticas_fullpvp"
+
+# Cada cuántos minutos se sincronizan las estadísticas con la web
+intervalo-minutos: 5

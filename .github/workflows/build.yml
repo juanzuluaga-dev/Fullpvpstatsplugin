@@ -25,3 +25,8 @@ jobs:
         with:
           name: SurvivalStatsPlugin
           path: target/SurvivalStatsPlugin.jar
+          - name: Guardar el JAR
+  uses: actions/upload-artifact@v4
+  with:
+    name: plugin-jar
+    path: '**/target/*.jar'

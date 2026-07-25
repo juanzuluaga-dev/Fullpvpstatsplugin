@@ -1,6 +1,0 @@
-name: StatsPlugin
-version: '1.0.0'
-main: com.wab.statsplugin.StatsPlugin
-api-version: '1.21'
-author: WAB
-description: Cuenta kills y muertes de Full PvP y las sincroniza con SuperTerraMC web
